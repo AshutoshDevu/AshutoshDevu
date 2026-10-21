@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Ashutosh%20Devu&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20%26%20Mobile%20Developer%20%E2%80%A2%20UI%2FUX&descAlignY=60&descSize=18&animation=fadeIn" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Ashutosh Devu — Full-Stack & Mobile Developer" />
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=520&lines=Building+apps+people+actually+use;React+%E2%80%A2+React+Native+%E2%80%A2+Node+%E2%80%A2+Firebase;Designing+in+Figma%2C+shipping+in+TypeScript;Off+the+keyboard%3F+Probably+golfing+%E2%9B%B3" alt="Typing SVG" /></a>
 
@@ -60,4 +60,4 @@ const ashutosh = {
   <img src="https://streak-stats.demolab.com?user=AshutoshDevu&theme=tokyonight&hide_border=true" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" alt="" />
