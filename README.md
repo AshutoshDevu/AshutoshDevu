@@ -1,18 +1,24 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Ashutosh Devu — Full-Stack & Mobile Developer" />
+<a href="https://github.com/AshutoshDevu"><img src="./assets/header.svg" width="100%" alt="Ashutosh Devu — Full-Stack & Mobile Developer" /></a>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4FC3F7&center=true&vCenter=true&width=520&lines=Building+apps+people+actually+use;React+%E2%80%A2+React+Native+%E2%80%A2+Node+%E2%80%A2+Firebase;Designing+in+Figma%2C+shipping+in+TypeScript;Off+the+keyboard%3F+Probably+golfing+%E2%9B%B3" alt="Typing SVG" /></a>
+<img src="./assets/tagline.svg" width="560" alt="Building apps people actually use" />
 
-<a href="https://www.linkedin.com/in/ashu260402/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/AshutoshDevu?tab=repositories"><img src="https://img.shields.io/badge/Projects-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=AshutoshDevu&style=for-the-badge&color=2c5364&label=Profile+views" />
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/ashu260402/"><img src="./assets/btn-linkedin.svg" height="52" alt="LinkedIn" /></a>
+<a href="https://github.com/AshutoshDevu?tab=repositories"><img src="./assets/btn-projects.svg" height="52" alt="All projects" /></a>
+<a href="https://github.com/AshutoshDevu/ride-together"><img src="./assets/btn-ride.svg" height="52" alt="Try RideTogether" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=AshutoshDevu&style=flat-square&color=0a84ff&label=profile+views" />
 
 </div>
 
----
+<br/>
 
-### 👋 About me
+<img src="./assets/h-about.svg" width="100%" alt="About me" />
 
 ```ts
 const ashutosh = {
@@ -24,22 +30,26 @@ const ashutosh = {
 };
 ```
 
-### 🛠️ Tech stack
+<img src="./assets/h-stack.svg" width="100%" alt="Tech stack" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,html,css&perline=12" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=react,redux,nodejs,express,django,flutter&perline=12" /><br/><br/>
-  <img src="https://skillicons.dev/icons?i=firebase,postgres,mongodb,redis,kubernetes,linux,git,figma&perline=12" />
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,python,java,html,css&theme=dark" /></a><br/><br/>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,redux,nodejs,express,django,flutter&theme=dark" /></a><br/><br/>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=firebase,postgres,mongodb,redis,kubernetes,linux,git,figma&theme=dark" /></a>
 </p>
 
-### 🚀 Featured projects
+<img src="./assets/h-projects.svg" width="100%" alt="Featured projects" />
 
 <p align="center">
-  <a href="https://github.com/AshutoshDevu/ride-together"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=ride-together&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/AshutoshDevu/leetcode-sim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=leetcode-sim&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/AshutoshDevu/FYP-CB1-Fetal-VM-Detection-Explanation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=FYP-CB1-Fetal-VM-Detection-Explanation&theme=tokyonight&hide_border=true" /></a>
-  <a href="https://github.com/AshutoshDevu/Job-It"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=Job-It&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/AshutoshDevu/ride-together"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=ride-together&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&icon_color=bf5af2&border_radius=20&hide_border=true" /></a>
+  <a href="https://github.com/AshutoshDevu/leetcode-sim"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=leetcode-sim&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&icon_color=bf5af2&border_radius=20&hide_border=true" /></a>
+  <a href="https://github.com/AshutoshDevu/FYP-CB1-Fetal-VM-Detection-Explanation"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=FYP-CB1-Fetal-VM-Detection-Explanation&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&icon_color=bf5af2&border_radius=20&hide_border=true" /></a>
+  <a href="https://github.com/AshutoshDevu/Job-It"><img src="https://github-readme-stats.vercel.app/api/pin/?username=AshutoshDevu&repo=Job-It&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&icon_color=bf5af2&border_radius=20&hide_border=true" /></a>
 </p>
+
+<details>
+<summary><b>✨ Click to see more projects</b></summary>
+<br/>
 
 | Project | What it is | Built with |
 |---|---|---|
@@ -49,15 +59,26 @@ const ashutosh = {
 | 💼 [**Job-It**](https://github.com/AshutoshDevu/Job-It) | Job-search app for developers | React Native |
 | ⌨️ [**AutoCorrect-Keyboard**](https://github.com/AshutoshDevu/AutoCorrect-Keyboard) | NLP model that fixes misspelled words | Python · NLP |
 | 🚇 [**Journey-Planner**](https://github.com/AshutoshDevu/Journey-Planner) | Cheapest / shortest route between metro stations | React |
+| 🫧 [**BubbleReactorAnimator**](https://github.com/AshutoshDevu/BubbleReactorAnimator) | Animation experiments | HTML · CSS |
+| 🥁 [**Drum-Kit**](https://github.com/AshutoshDevu/Drum-Kit) | Playable drum kit in the browser | HTML · CSS · JS |
 
-### 📊 GitHub stats
+</details>
+
+<img src="./assets/h-stats.svg" width="100%" alt="GitHub stats" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AshutoshDevu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshutoshDevu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AshutoshDevu&show_icons=true&count_private=true&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&icon_color=bf5af2&border_radius=20&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AshutoshDevu&layout=compact&langs_count=8&bg_color=35,1c1c2e,0b0d12&title_color=64d2ff&text_color=e5e5ea&border_radius=20&hide_border=true" />
 </p>
+
+<details>
+<summary><b>🔥 Click to see my streak</b></summary>
+<br/>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AshutoshDevu&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=AshutoshDevu&background=0b0d12&ring=0a84ff&fire=bf5af2&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=64d2ff&sideLabels=a1a1aa&dates=8e8e93&stroke=2c2c2e&hide_border=true&border_radius=20" />
 </p>
+</details>
+
+<br/>
 
 <img src="./assets/footer.svg" width="100%" alt="" />

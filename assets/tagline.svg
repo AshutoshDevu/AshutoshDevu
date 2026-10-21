@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="64" viewBox="0 0 560 64">
+<defs>
+  <clipPath id="frame"><rect width="560" height="64" rx="32"/></clipPath>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+  <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#fff" stop-opacity=".25"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+    <stop offset=".45" stop-color="#fff" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#fff" stop-opacity=".02"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs><style>
+  .t{font-family:-apple-system,BlinkMacSystemFont,&quot;SF Pro Display&quot;,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+  .in{animation:in 1.2s cubic-bezier(.2,.8,.2,1) both}
+  .d1{animation-delay:.15s} .d2{animation-delay:.3s}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .pulse{animation:p 2s ease-in-out infinite}
+  @keyframes p{50%{opacity:.3}}
+  
+</style><g clip-path="url(#frame)">
+  <rect width="560" height="64" fill="#0b0d12"/>
+  <g filter="url(#blur)" opacity=".85">
+    <circle cx="90" cy="32" r="50" fill="#0a84ff" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;60 10;0 0" dur="10s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="470" cy="32" r="55" fill="#bf5af2" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;-70 -8;0 0" dur="12s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="280" cy="10" r="40" fill="#64d2ff" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;40 30;0 0" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+  </g>
+  <clipPath id="pill"><rect x="6" y="6" width="548" height="52" rx="26"/></clipPath>
+  <rect x="6" y="6" width="548" height="52" rx="26" fill="#fff" fill-opacity=".06"/>
+  <rect x="6" y="6" width="548" height="52" rx="26" fill="url(#sheen)"/>
+  <g clip-path="url(#pill)"><rect x="-300" y="6" width="137" height="52" fill="url(#shine)" transform="skewX(-20)">
+    <animate attributeName="x" values="-294;854;854" keyTimes="0;.45;1" dur="6s" repeatCount="indefinite"/></rect></g>
+  <rect x="6.75" y="6.75" width="546.5" height="50.5" rx="26" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+  <text class="t" x="280" y="39" text-anchor="middle" fill="#fff" font-size="17" opacity="0">Building apps people actually use<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0000;0.0300;0.2200;0.2500;1" dur="12s" repeatCount="indefinite"/></text>
+  <text class="t" x="280" y="39" text-anchor="middle" fill="#fff" font-size="17" opacity="0">React · React Native · Node · Firebase<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2500;0.2800;0.4700;0.5000;1" dur="12s" repeatCount="indefinite"/></text>
+  <text class="t" x="280" y="39" text-anchor="middle" fill="#fff" font-size="17" opacity="0">Designing in Figma, shipping in TypeScript<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5000;0.5300;0.7200;0.7500;1" dur="12s" repeatCount="indefinite"/></text>
+  <text class="t" x="280" y="39" text-anchor="middle" fill="#fff" font-size="17" opacity="0">Off the keyboard? Probably golfing<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7500;0.7800;0.9700;1.0000;1" dur="12s" repeatCount="indefinite"/></text>
+</g>
+<rect x=".5" y=".5" width="559" height="63" rx="32" fill="none" stroke="#fff" stroke-opacity=".08"/>
+</svg>

@@ -1,10 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="120" viewBox="0 0 854 120">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2c5364"/>
-      <stop offset="0.5" stop-color="#203a43"/>
-      <stop offset="1" stop-color="#0f2027"/>
-    </linearGradient>
-  </defs>
-  <path fill="url(#bg)" d="M0 40C120 15 220 70 360 50C500 30 600 5 720 30C790 45 830 40 854 35V120H0Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="90" viewBox="0 0 854 90">
+<defs>
+  <clipPath id="frame"><rect width="854" height="90" rx="24"/></clipPath>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+  <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#fff" stop-opacity=".25"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity=".16"/>
+    <stop offset=".45" stop-color="#fff" stop-opacity=".04"/>
+    <stop offset="1" stop-color="#fff" stop-opacity=".02"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs><style>
+  .t{font-family:-apple-system,BlinkMacSystemFont,&quot;SF Pro Display&quot;,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+  .in{animation:in 1.2s cubic-bezier(.2,.8,.2,1) both}
+  .d1{animation-delay:.15s} .d2{animation-delay:.3s}
+  @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .pulse{animation:p 2s ease-in-out infinite}
+  @keyframes p{50%{opacity:.3}}
+  
+</style><g clip-path="url(#frame)">
+  <rect width="854" height="90" fill="#0b0d12"/>
+  <g filter="url(#blur)" opacity=".85">
+    <circle cx="150" cy="60" r="80" fill="#bf5af2" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;80 -20;0 0" dur="14s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="700" cy="30" r="80" fill="#0a84ff" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;-90 20;0 0" dur="16s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="430" cy="80" r="60" fill="#64d2ff" opacity="1"><animateTransform attributeName="transform" type="translate" values="0 0;30 -30;0 0" dur="11s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/></circle>
+  </g>
+  <clipPath id="foot"><rect x="8" y="8" width="838" height="74" rx="20"/></clipPath>
+  <rect x="8" y="8" width="838" height="74" rx="20" fill="#fff" fill-opacity=".06"/>
+  <rect x="8" y="8" width="838" height="74" rx="20" fill="url(#sheen)"/>
+  <g clip-path="url(#foot)"><rect x="-300" y="8" width="209" height="74" fill="url(#shine)" transform="skewX(-20)">
+    <animate attributeName="x" values="-292;1146;1146" keyTimes="0;.45;1" dur="7s" repeatCount="indefinite"/></rect></g>
+  <rect x="8.75" y="8.75" width="836.5" height="72.5" rx="20" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+  <text class="t" x="427" y="51" text-anchor="middle" fill="#fff" fill-opacity=".8" font-size="15">Thanks for stopping by  ·  let’s build something</text>
+</g>
+<rect x=".5" y=".5" width="853" height="89" rx="24" fill="none" stroke="#fff" stroke-opacity=".08"/>
 </svg>
