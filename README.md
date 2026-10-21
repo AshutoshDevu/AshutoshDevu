@@ -59,8 +59,5 @@ const ashutosh = {
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=AshutoshDevu&theme=tokyonight&hide_border=true" />
 </p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AshutoshDevu&theme=tokyo-night&hide_border=true&area=true" width="100%" />
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" width="100%" />
